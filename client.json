@@ -1,0 +1,17 @@
+{
+  "client_id": "https://raw.githubusercontent.com/VladiGA6/cursor-elevenlabs-mcp-client/main/client.json",
+  "client_name": "Cursor",
+  "client_uri": "https://cursor.com",
+  "logo_uri": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/cursorlogomcpv3.svg",
+  "redirect_uris": [
+    "cursor://anysphere.cursor-mcp/oauth/callback",
+    "http://localhost:8787/callback",
+    "http://127.0.0.1:8787/callback",
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost/callback",
+    "http://127.0.0.1/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
